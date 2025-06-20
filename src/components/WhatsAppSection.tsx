@@ -6,9 +6,9 @@ const WhatsAppSection = () => {
   const { currentTheme } = useTheme();
 
   const features = [
-    { icon: Briefcase, label: 'Job Alerts', count: '500+' },
-    { icon: Trophy, label: 'Competitions', count: '50+' },
-    { icon: Calendar, label: 'Events', count: '100+' },
+    { icon: Briefcase, label: 'Jobs in the Market', count: '25,000+' },
+    { icon: Trophy, label: 'Live Competitions', count: '1000+' },
+    { icon: Calendar, label: 'Ongoing Events', count: '3000+' },
   ];
 
   return (
@@ -37,7 +37,7 @@ const WhatsAppSection = () => {
           
           <p className="text-xl max-w-2xl mx-auto leading-relaxed mb-8" 
              style={{ color: `${currentTheme.foreground}80` }}>
-            Join our exclusive WhatsApp channel for instant alerts on jobs, internships, competitions, and events from top companies
+            Join our exclusive WhatsApp channel to get handpicked existing opportunities from top sources including jobs, internships, competitions, and events in one place
           </p>
         </div>
 
