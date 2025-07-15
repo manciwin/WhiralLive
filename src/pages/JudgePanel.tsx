@@ -4,6 +4,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import JudgeCard from '../components/JudgeCard';
 import { Award, Users, Star, Trophy } from 'lucide-react';
 import  Footer  from '../components/Footer';
+import Navbar from '@/components/Navbar';
 
 const JudgePanel: React.FC = () => {
   const { currentTheme } = useTheme();
@@ -73,7 +74,7 @@ const JudgePanel: React.FC = () => {
   const stats = [
     { icon: Users, label: 'Expert Judges', value: '50+' },
     { icon: Award, label: 'Companies', value: '25+' },
-    { icon: Star, label: 'Years Experience', value: '200+' },
+    { icon: Star, label: 'Years Experience', value: '20+' },
     { icon: Trophy, label: 'Competitions Judged', value: '100+' }
   ];
 
@@ -116,6 +117,7 @@ const JudgePanel: React.FC = () => {
           />
         ))}
       </div>
+      <Navbar/>
 
       {/* Content */}
       <div className="relative z-10">
