@@ -469,14 +469,14 @@ const Index = () => {
         <div className={`max-w-6xl mx-auto px-4 py-16 transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="text-center mb-12">
             <h3 
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="text-4xl md:text-5xl font-bold mb-6"
               style={{ color: currentTheme.foreground }}
             >
               Why Choose Whiral?
             </h3>
             <p 
-              className="text-lg"
-              style={{ color: `${currentTheme.foreground}cc` }}
+              className="text-xl leading-relaxed max-w-3xl mx-auto"
+              style={{ color: `${currentTheme.foreground}80` }}
             >
               {/* Experience the difference of professional-grade competition evaluation. Whiral brings industry-relevant competitions, fair evaluations, and expert feedback — all designed to unlock your potential. */}
               Whiral is more than just a platform, it’s a launchpad for students, innovators, and future leaders. We bring you carefully curated competitions and challenges designed in collaboration with industry experts to ensure real-world relevance. Whether you're looking to showcase your talent, gain exposure, or take on meaningful problems, Whiral helps you unlock your full potential. Whether you're a student, a creator, or an early-career professional, Whiral opens the door to high-impact opportunities that drive your growth.
@@ -510,7 +510,7 @@ const Index = () => {
                   {feature.title}
                 </h4>
                 <p 
-                  className="text-sm"
+                  className="text-base mb-6 leading-relaxed"
                   style={{ color: `${currentTheme.foreground}80` }}
                 >
                   {feature.description}
